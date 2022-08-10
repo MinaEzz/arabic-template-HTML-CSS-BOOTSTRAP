@@ -1,0 +1,146 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    direction: rtl;
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+}
+
+nav ul{
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav{
+    box-shadow: 1px 2px 5px #ebebeb;
+}
+
+/* common styles */
+.row{
+    width: 100%;
+}
+.pd-y{
+    padding: 80px 0;
+}
+
+/* start upper div*/
+#upper-div{
+    width: 100%;
+    height: 120px;
+    background-color: #e9ecef;
+}
+#upper-div ol{
+    justify-content: flex-end;
+}
+/* end upper div */
+
+/* start blog */
+#blog{
+    width: 100%;
+    background-color: #ffffff;
+}
+.blog-item{
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #ffc527;
+}
+.blog-item-des{
+    width: 60%;
+    margin: 0 12px;
+}
+.blog-item-des h5{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+}
+.blog-item-des p{
+    color: #000000;
+    font-size: 18px;
+    margin: 18px 0;
+}
+.blog-item-img{
+    width: 40%;
+}
+.blog-item-img img{
+    width: 100%;
+    height: auto;
+}
+#blog nav ul{
+    justify-content: flex-start;
+}
+.left-sec{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f9f9f9;
+}
+.left-sec-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+.left-sec h5{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+}
+.left-sec hr{
+    width: 100%;
+    height: 1px;
+    background-color: #071c33;
+}
+.left-sec-item p{
+    color: #000000;
+    font-size: 18px;
+}
+.left-sec-item span{
+    color: #17a2b8;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* end blog*/
+
+/* start footer */
+footer{
+    width: 100%;
+    background-color: #071c33;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-item .logo{
+    background-color: #ffffff;
+    padding: 10px;
+}
+.footer-item p{
+    color: #ffffff;
+}
+.footer-item a{
+    color: #ffc527;
+    text-decoration: none;
+    margin-bottom: 12px ;
+}
+.footer-item .latest{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.latest img{
+    width: 58px;
+    height: 58px;
+    margin-left: 28px;
+}
+.footer-item hr{
+    width: 100%;
+    height: 0.5px;
+    background-color: #ffffff;
+}
+/* end footer */
